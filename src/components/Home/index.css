@@ -1,0 +1,23 @@
+/* Write your CSS here */
+
+.home-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 1px;
+}
+
+.home-mobile-section {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .home-mobile-section {
+    display: block;
+  }
+  .home-section {
+    display: none;
+  }
+}

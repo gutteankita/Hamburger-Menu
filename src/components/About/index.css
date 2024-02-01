@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.about-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 1px;
+}
+.about-mobile-section {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .about-mobile-section {
+    display: block;
+  }
+  .about-section {
+    display: none;
+  }
+}
